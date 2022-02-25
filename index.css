@@ -1,11 +1,15 @@
 :root {
-    --red:#ff6f69;
+    --red: #ff6f69;
     --beige: #ffeead;
-    --yellow:#ffcc5c;
+    --yellow: #ffcc5c;
 }
 
 html, body {
     background: var(--beige);
+    color: var(--red);
+}
+
+h1, p {
     color: var(--red);
 }
 
@@ -20,11 +24,5 @@ html, body {
 
 button {
     background: var(--red);
-    color: var(--item-yellow);
-}
-
-
-.featured {
-    --yellow: #ffe55b;
-    --red: #ff5564;   
+    color: var(--yellow);
 }
