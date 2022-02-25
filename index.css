@@ -14,12 +14,16 @@ html, body {
 }
 
 .item {
+    --item-yellow:#fffc5c ;
+}
+
+.item {
     --red:#ff8e69; 
     /*todo lo que esta dentro de item se cambia de color*/
-    background: var(--yellow);
+    background: var(--item-yellow);
 }
 
 button {
     background: var(--red);
-    color: var(--yellow);
+    color: var(--item-yellow);
 }
