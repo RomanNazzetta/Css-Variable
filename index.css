@@ -46,4 +46,8 @@ button {
     .grid {
        --columns: 200px;   
     }
+    
+    :root {
+        --beige: #fffead;
+    }
 }
